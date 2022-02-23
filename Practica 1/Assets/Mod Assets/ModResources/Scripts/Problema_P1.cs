@@ -34,7 +34,7 @@ public class Problema_P1 : MonoBehaviour
                 }
                 result[i] = cont;
             }
-
             return result;
         }
+
 }
