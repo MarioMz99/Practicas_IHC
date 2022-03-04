@@ -1,4 +1,4 @@
-using System.Collections;
+using System.Collections; 
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +8,7 @@ public class Problema_P2 : MonoBehaviour
     public int num;
 
     // Start is called before the first frame update
-    void Start()
+    void Start() 
     {
         
     }
@@ -16,7 +16,7 @@ public class Problema_P2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RevisarSuma(input,num);
+        RevisarSuma(input,num);  
     }
 
     private void RevisarSuma(int [] arr, int num){
@@ -24,7 +24,7 @@ public class Problema_P2 : MonoBehaviour
             if(arr[i]<num){
                 for(int j = 0; j<arr.Length; j++){
                     if(arr[i] + arr[j] == num){
-                        Debug.Log(i + " " + j);
+                        Debug.Log(i + " " + j); 
                     }
                 }
             }            
