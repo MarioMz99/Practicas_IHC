@@ -354,9 +354,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 299173861}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acc7e9bc57e1112429ea247e4e2ccdd6, type: 3}
+  m_Script: {fileID: 11500000, guid: bd488fe211322e540bea768d565e0cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SonidoPiedra: {fileID: 4496795983328365144, guid: 91e7e9898765cbd4f933d27670db7cf4, type: 3}
 --- !u!1 &352020403
 GameObject:
   m_ObjectHideFlags: 0
