@@ -39,9 +39,9 @@ public class CameraPointer : MonoBehaviour
         // at.
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, _maxDistance))
-        {
+        {            
             // GameObject detected in front of the camera.
-            if (_gazedAtObject != hit.transform.gameObject && hit.transform.GetComponent<ObjectController>() != null)
+            if (_gazedAtObject != hit.transform.gameObject )
             {
                 // New GameObject.
                 _gazedAtObject?.SendMessage("OnPointerExit");
