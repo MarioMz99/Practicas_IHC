@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5530076128577108913
+  m_GuidHigh: 4272413500761910425
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5372092704894029925
+      m_GuidHigh: 2736032523601288606
+    m_SerializedTextureGuid:
+      m_GuidLow: 16664709354863349367
+      m_GuidHigh: 14642313491014561352
+    m_Size: {x: 0.15, y: 0.15}
+    m_SpecifySize: 1
+    m_Name: tierra
+    m_Texture: {fileID: 2800000, guid: 65c24e77f0dde744482ed5b18af233cb, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5332757511659124846
+      m_GuidHigh: 1044872618131705272
+    m_SerializedTextureGuid:
+      m_GuidLow: 3568002867029143096
+      m_GuidHigh: 10187371470483833946
+    m_Size: {x: 0.15, y: 0.12861703}
+    m_SpecifySize: 1
+    m_Name: lava
+    m_Texture: {fileID: 2800000, guid: 16d8ee3817b431845a44239d60d0608d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5121937375512513824
+      m_GuidHigh: 6953592728464861874
+    m_SerializedTextureGuid:
+      m_GuidLow: 645245068726930780
+      m_GuidHigh: 7813628467486312443
+    m_Size: {x: 0.15, y: 0.15}
+    m_SpecifySize: 1
+    m_Name: diamante
+    m_Texture: {fileID: 2800000, guid: aa8a8d5c5ef808f4fbc7665bb1956f6c, type: 3}
